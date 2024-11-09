@@ -1,0 +1,47 @@
+:root{
+    --color-green: hsla(133, 94%, 28%, 0.925);
+    --color-light: hsla(90, 18%, 87%, 0.966);
+    --font-body: "Quicksand", sans-serif;
+}
+ 
+body {
+    font-family: var(--font-body);
+}
+ 
+.bg-green {background-color: var(--color-green);}
+ 
+.navbar-toggler {
+    box-shadow: none !important;
+    border-color: var(--color-light);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #4b4b4b;
+}
+
+#searchinput {
+    padding: 8px;
+    border: none;
+    background-color: #ffffff;
+    width: 100%;
+    outline: none;
+}
+
+
+.Nome_site {
+    font-size: xx-large;
+}
+
+.nav-link {
+    color: var(--color-light);
+}
+
+
