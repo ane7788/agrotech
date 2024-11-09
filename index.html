@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Agrotech</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/2bff4383e4.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body style="background-color: #beccc4;">
+    <div class="cabeçalho container-fluid bg-green">
+        <!-----------------------   menu principal   ----------------------->
+        <div class="cabeçalho3 container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Criar Conta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conta">Entrar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrinho" ><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="Nome_site navbar-brand text-light me-" href="#"><i class="fa-solid fa-leaf"></i>EconAgro</a>
+                <div class="search ms-4">
+                    <input type="text" id="searchinput" placeholder="Pesquisar">
+                    <label for="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    </label> 
+                </div>
+            </div>
+        </nav>
+
+        
+        <div class="cabeçalho2 container-fluid">
+            <nav class="navbar navbar-expand-lg">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conta">Minha Conta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carrinho">Meu Carrinho</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#favoritos">Favoritos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historico">Histórico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ajuda">Ajuda/Fale Conosco</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre Nós</a>
+                    </li>
+                 </ul>
+            </nav>
+            
+        </div>   
+    </div>
+
+    <!-- main content -->
+    <main class="container mx-auto mt-4 p-4">
+        <section id="inicio" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Bem-vindo à EconAgro</h2>
+            <p>Conectando pequenos agricultores e consumidores em um marketplace focado na agricultura familiar.</p>
+        </section>
+
+        <section id="sobre" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Sobre Nós</h2>
+            <p>AgroConecta é uma plataforma para pequenos agricultores comercializarem seus produtos diretamente com consumidores e empresas interessadas em produtos locais e sustentáveis.</p>
+        </section>
+
+        <section id="mercado" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Marketplace</h2>
+            <p>Aqui você encontra produtos frescos e de qualidade diretamente dos produtores.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                
+            
+                </div>
+                <div class="card bg-white p-4 rounded-lg shadow-lg text-center">
+                    <h5 class="font-semibold">Confira Nossos Produtos</h5>
+                    <img src="./imgs2/imageminicio.jpg"></img>  
+                    <p class="mb-4"><a href=file:///c%3A/Users/user/OneDrive/Documentos/Agro/imgs/galeria.html>Clique Aqui</a></p>
+        
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Contato</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="nome" class="block text-gray-700">Nome:</label>
+                    <input type="text" id="nome" name="nome" class="w-full px-3 py-2 rounded border" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email:</label>
+                    <input type="email" id="email" name="email" class="w-full px-3 py-2 rounded border" required>
+                </div>
+                <div class="mb-4">
+                    <label for="mensagem" class="block text-gray-700">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" class="w-full px-3 py-2 rounded border" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    
+    <footer class="bg-green text-white text-center py-4">
+        <br>
+        <p>&copy; 2024 AgroConecta. Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
